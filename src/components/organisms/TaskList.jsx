@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { toast } from "react-toastify";
-import TaskItem from "../molecules/TaskItem";
-import LoadingState from "../molecules/LoadingState";
-import EmptyState from "../molecules/EmptyState";
+import { taskService } from "@/services/api/taskService";
+import { projectService } from "@/services/api/projectService";
+import TaskItem from "@/components/molecules/TaskItem";
+import EmptyState from "@/components/molecules/EmptyState";
+import LoadingState from "@/components/molecules/LoadingState";
 import AppIcon from "@/components/atoms/AppIcon";
-import { taskService } from "../../services/api/taskService";
-import { projectService } from "../../services/api/projectService";
 
 const TaskList = ({ 
   filter = () => true, 
@@ -148,9 +148,9 @@ const TaskList = ({
         </div>
       )}
 
-      {/* Completed Tasks */}
+{/* Completed Tasks */}
       {completedTasks.length > 0 && (
-<div className="space-y-3">
+        <div className="space-y-3">
           <div className="flex items-center gap-2 text-sm text-gray-500 font-medium">
             <AppIcon name="Check" size={16} />
             Completed ({completedTasks.length})
