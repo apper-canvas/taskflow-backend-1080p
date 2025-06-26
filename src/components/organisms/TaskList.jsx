@@ -6,9 +6,9 @@ import { projectService } from "@/services/api/projectService";
 import TaskItem from "@/components/molecules/TaskItem";
 import EmptyState from "@/components/molecules/EmptyState";
 import LoadingState from "@/components/molecules/LoadingState";
-import AppIcon from "@/components/atoms/AppIcon";
+import AppIcon from "@/components/atoms/ApperIcon";
 
-const TaskList = ({ 
+const TaskList = ({
   filter = () => true, 
   title,
   emptyTitle,
