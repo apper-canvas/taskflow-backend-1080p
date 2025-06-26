@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Business Growth",
+    "color": "#EF4444",
+    "icon": "📈",
+    "order": 0,
+    "taskCount": 2
+  },
+  {
+    "id": "2", 
+    "name": "Client Projects",
+    "color": "#3B82F6",
+    "icon": "👥",
+    "order": 1,
+    "taskCount": 2
+  },
+  {
+    "id": "3",
+    "name": "Website Redesign", 
+    "color": "#10B981",
+    "icon": "🎨",
+    "order": 2,
+    "taskCount": 2
+  },
+  {
+    "id": "4",
+    "name": "Marketing Campaign",
+    "color": "#F59E0B", 
+    "icon": "📢",
+    "order": 3,
+    "taskCount": 0
+  },
+  {
+    "id": "5",
+    "name": "Personal Development",
+    "color": "#8B5CF6",
+    "icon": "🌱", 
+    "order": 4,
+    "taskCount": 0
+  }
+]
